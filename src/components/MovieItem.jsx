@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const MovieItem = ({ movie }) => {
+const MovieItem = ({ movie , parentRef}) => {
   const BASE_IMAGE_URL = 'https://image.tmdb.org/t/p/w500';
 
   return (
-    <Link to={`/movie/${movie.id}`} className="block">
+    <Link to={`/movie/${movie.id}`} className="block" ref={parentRef}>
       <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105">
         <img 
           src={`${BASE_IMAGE_URL}${movie.poster_path}`} 

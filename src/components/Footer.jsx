@@ -5,17 +5,17 @@ import Logo from '../assets/logo.svg';
 const Footer = () => {
   return (
     <footer className="w-full flex items-center justify-center bg-gray-800 text-white p-4 mt-8">
-        <div class="md:w-2/3 w-full px-4 text-white flex flex-col">
-            <div class="flex flex-col">
-                <div class="flex mt-24 mb-12 flex-row justify-between">
+        <div className="md:w-2/3 w-full px-4 text-white flex flex-col">
+            <div className="flex flex-col">
+                <div className="flex mt-24 mb-12 flex-row justify-between">
                     <a href='/'>
                         <img src={Logo} alt="Logo" className="min-w-full h-4" />
                     </a>
-                    <a class="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">About</a>
-                    <a class="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">Services</a>
-                    <a class="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">Why us</a>
-                    <a class="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">Contact</a>
-                    <div class="flex flex-row space-x-8 items-center justify-between">
+                    <a className="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">About</a>
+                    <a className="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">Services</a>
+                    <a className="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">Why us</a>
+                    <a className="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">Contact</a>
+                    <div className="flex flex-row space-x-8 items-center justify-between">
                         <a>
                             <svg width="6" height="12" viewBox="0 0 6 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M3.89782 12V6.53514H5.67481L5.93895 4.39547H3.89782V3.03259C3.89782 2.41516 4.06363 1.99243 4.91774 1.99243H6V0.0847928C5.47342 0.0262443 4.94412 -0.00202566 4.41453 0.000112795C2.84383 0.000112795 1.76542 0.994936 1.76542 2.82122V4.39147H0V6.53114H1.76928V12H3.89782Z" fill="white"/>

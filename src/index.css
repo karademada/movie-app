@@ -7,3 +7,30 @@
   overflow-y: auto;
   height: 100vh;
 }
+
+.movie-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.movie-list-item {
+  display: flex;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e3e3e3;
+  padding-bottom: 20px;
+}
+
+.movie-poster {
+  width: 92px;
+  height: 138px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.movie-info {
+  flex: 1;
+}
+
+.movie-info h3 {
+  margin-top: 0;
+}

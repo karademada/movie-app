@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import DetailsPage from './pages/MovieDetail';
 import MovieList from './pages/MovieList';
+import './index.css'
 
 const App = () => {
   return (
