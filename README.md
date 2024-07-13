@@ -2,6 +2,10 @@
 
 ## Install and run
 ```bash
+git clone git@github.com:karademada/movie-app.git
+
+cd movie-app
+
 npm install
 
 npm run dev
